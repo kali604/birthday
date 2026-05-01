@@ -1,0 +1,484 @@
+{
+  "title": "Our Story",
+  "playerName": "Anika",
+  "scenes": {
+    "start": {
+      "text": "It's April 2024. You're curled up on your bed in Burquitlam, your calico cat judging you from the pillow. You're scrolling through Salams. Most profiles blur together... but then one makes you stop. You're Enchanted to meet him, you might say.",
+      "emoji": "📱🐱",
+      "bg": "#fdf6f0",
+      "choices": [
+        {
+          "label": "Swipe right 💕",
+          "next": "first_chat"
+        },
+        {
+          "label": "Keep scrolling...",
+          "next": "start_loop"
+        },
+        {
+          "label": "Swipe left on EVERYONE 🐈",
+          "next": "cat_lady"
+        }
+      ]
+    },
+    "start_loop": {
+      "text": "You scroll past... but something pulls you back. Your thumb hovers. The cat meows impatiently. You know you have to swipe right.",
+      "emoji": "You Belong With Me ✨",
+      "bg": "#fdf6f0",
+      "choices": [
+        {
+          "label": "Okay fine... swipe right 💕",
+          "next": "first_chat"
+        }
+      ]
+    },
+    "cat_lady": {
+      "text": "You swipe left on everyone. You adopt 7 cats. You name them Monday through Sunday. Life is peaceful. The cats don't argue. The cats don't leave dishes in the sink.\n\nYou Meow at them often. Only Monday Meows back. Saturday, a squichy fat fuck just judges you for late night ice cream.\n\n But ...but the cats can't send you memes at 2am. Wednesday just stares at you. This isn't it.",
+      "emoji": "🐱🐱🐱🐱🐱🐱🐱",
+      "bg": "#f5f0eb",
+      "choices": [
+        {
+          "label": "Okay fine, open Salams again 📱",
+          "next": "start"
+        }
+      ]
+    },
+    "first_chat": {
+      "text": "You match with Ali! The first messages turn into long conversations. Then the phone calls start — hours that feel like minutes, nights that disappear into laughter and stories. Your cat falls asleep to the sound of his voice.",
+      "emoji": "📞🐈",
+      "bg": "#fef3f0",
+      "choices": [
+        {
+          "label": "Stay up talking all night",
+          "next": "memes"
+        },
+        {
+          "label": "Send him a meme instead",
+          "next": "memes"
+        },
+        {
+          "label": "Invite him over 🏠",
+          "next": "invite_him_over"
+        }
+      ]
+    },
+    "memes": {
+      "text": "Instagram becomes your second language. Reels at 2am. Memes that only make sense to the two of you. Every notification from him makes your heart skip. You send him cat videos. He sends worse ones back. This is how it's supposed to feel — like a new Beginning.",
+      "emoji": "😂🐈",
+      "bg": "#fef9f0",
+      "choices": [
+        {
+          "label": "Send another meme 📲",
+          "next": "memes_loop"
+        },
+        {
+          "label": "He invites you to meet up 🚶🏼🌊",
+          "next": "first_meet"
+        }
+      ]
+    },
+    "memes_loop": {
+      "text": "He replies instantly. Then another meme. Then another. The cat is getting jealous of your screen time. But the phone screen isn't enough anymore...\n\n...or IS it? One more meme couldn't hurt.",
+      "emoji": "💬🐈",
+      "bg": "#fef9f0",
+      "choices": [
+        {
+          "label": "Just ONE more meme 📲",
+          "next": "memes_loop_2"
+        },
+        {
+          "label": "Suggest meeting up 🚊",
+          "next": "first_meet"
+        }
+      ]
+    },
+    "memes_loop_2": {
+      "text": "You send him a cursed image of a cat in a business suit. He replies with somthing a little riskyy. You screenshot it. Send it to your friend.\n\nThis man WANTS you.",
+      "emoji": "🕊️🐱",
+      "bg": "#fef9f0",
+      "choices": [
+        {
+          "label": "Okay ONE more... 📲",
+          "next": "memes_loop_3"
+        },
+        {
+          "label": "Fine, let's actually meet 🚊",
+          "next": "first_meet"
+        }
+      ]
+    },
+    "memes_loop_3": {
+      "text": "It's 4am. You've been sending memes for 6 hours straight. The cat has given up on you. Your phone is at 3%. You've entered the meme shadow realm.\n\nBut even the shadow realm can't replace seeing his face in person.\n At least IRL he can't ask 'what color is your...'\nIt's time.",
+      "emoji": "📱🐱",
+      "bg": "#fef5e8",
+      "choices": [
+        {
+          "label": "Okay FINE. Meet in person. Only for a quick coffee though ☕",
+          "next": "first_meet"
+        },
+        {
+          "label": "Wait... WRONG CHAT 😱",
+          "next": "meme_to_mom"
+        }
+      ]
+    },
+    "meme_to_mom": {
+      "text": "You freeze. You look at your screen. You sent that meme — THAT meme — to the family group chat.\n\nMom has seen it. Dad has seen it. Your khala has seen it. Your cousin who screenshots everything has DEFINITELY seen it.\n\nMom is typing...\nMom is typing...\nMom is typing...\n\n\"Who is this boy.\"",
+      "emoji": "😱📱👩‍👧",
+      "bg": "#ffe8e8",
+      "choices": [
+        {
+          "label": "Try to explain what a meme is 😰",
+          "next": "meme_to_mom_2"
+        },
+        {
+          "label": "Throw phone in the ocean 🌊",
+          "next": "meme_to_mom_2"
+        }
+      ]
+    },
+    "meme_to_mom_2": {
+      "text": "Emergency family meeting. You're sat down in the living room. The family WhatsApp has been BUZZING.\n\nMom: \"Is he Muslim?\"\nDad: \"What does he do?\"\nKhala: \"Show me his profile.\"\nCousin: *already stalking his Instagram*\n\nMom is either planning the wedding or the funeral. You can't tell which.\n\nThe cat watches from the doorway. Even he looks disappointed.\n\nSomehow, you survive. But now Ali has to impress the entire family. No pressure.",
+      "emoji": "👨‍👩‍👧‍👦💀🐱",
+      "bg": "#fff0e8",
+      "choices": [
+        {
+          "label": "Mom takes over. It's arranged now. 💍",
+          "next": "married_2"
+        }
+      ]
+    },
+    "first_meet": {
+      "text": "May 2024. Granville Station. Your heart is pounding as the train pulls in. You step onto the platform, look around... and there he is. The voice from all those late-night calls, standing right in front of you. Long story short — you survived.",
+      "emoji": "🚊",
+      "bg": "#f0f4fe",
+      "choices": [
+        {
+          "label": "Walk toward him",
+          "next": "coal_harbour"
+        },
+        {
+          "label": "Pretend you didn't see him... 👀",
+          "next": "pacific_centre"
+        }
+      ]
+    },
+    "pacific_centre": {
+      "text": "You panic. You DUCK. You speed-walk into Pacific Centre like your life depends on it. You're weaving through Sephora, hiding behind a mannequin. Your heart is racing.\n\nYour phone buzzes: \"Hey I think I see you... are you hiding behind a headless mannequin in Zara?\"\n\n...He saw you.",
+      "emoji": "🏬🫣",
+      "bg": "#f5f0ff",
+      "choices": [
+        {
+          "label": "Run deeper into the mall 🏃‍♀️",
+          "next": "pacific_centre_2"
+        },
+        {
+          "label": "Emerge with dignity 😤",
+          "next": "coal_harbour"
+        }
+      ]
+    },
+    "pacific_centre_2": {
+      "text": "You sprint past H&M. Past the food court. You duck into the Lego store and crouch behind the Millennium Falcon display.\n\nA 7-year-old stares at you. \"Are you okay, lady?\"\n\nYour phone buzzes again: \"I'm in the Lego store. I can see your hijab behind the Millennium Falcon btw.\"\n\nThis man knows his Lego. He might be the one to Lego my Eggo",
+      "emoji": "🏃‍♀️🧱🚀",
+      "bg": "#f5f0ff",
+      "choices": [
+        {
+          "label": "Accept defeat. Walk toward him. 🫣",
+          "next": "pacific_centre_3"
+        }
+      ]
+    },
+    "pacific_centre_3": {
+      "text": "You stand up. The 7-year-old claps. Ali is grinning. You're bright red.\n\n\"Nice hiding spot. You're as red as 🇧🇩 in your green sweater\" he says.\n\"Better than 🇵🇰 being a one-star review\" you reply.\n\nHe laughs. You laugh. The 7-year-old goes back to his Lego- making Han and Leia kiss. And somehow, this is the most unhinged and perfect first meeting you could have asked for.\n\nAccidentally caught feelings… oops\n\nYou head out of Pacific Centre together. His hand holdings yours",
+      "emoji": "😂❤️🧱",
+      "bg": "#f0f4fe",
+      "choices": [
+        {
+          "label": "Walk to Coal Harbour together",
+          "next": "coal_harbour"
+        }
+      ]
+    },
+    "coal_harbour": {
+      "text": "You walk together to Coal Harbour. The city lights shimmer on the water like a Love Story playing out in real time. The conversation flows just like it did on the phone — but now you can see his smile.\n\n A stray cat watches you two from a bench. Even it approves.",
+      "emoji": "🌊🍦🐈",
+      "bg": "#f0f8ff",
+      "choices": [
+        {
+          "label": "Never let go of this feeling",
+          "next": "official"
+        },
+        {
+          "label": "Suggest matching tattoos 💉",
+          "next": "tattoo_idea"
+        }
+      ]
+    },
+    "tattoo_idea": {
+      "text": "First date adrenaline hits different. You're walking along the seawall, the city glowing, and your mouth moves faster than your brain:\n\n\"We should get matching tattoos.\"\n\nHe stops. Looks at you. Looks at the tattoo shop across the street. Looks back at you.\n\n\"...I'm not saying no.\"\n\nYou're inside the shop 4 minutes later.",
+      "emoji": "💉✨😳 ",
+      "bg": "#f8f0ff",
+      "choices": [
+        {
+          "label": "Actually do it 😤",
+          "next": "tattoo_result"
+        }
+      ]
+    },
+    "tattoo_result": {
+      "text": "You get a tiny cat paw on your wrist. Tasteful. Cute. No regrets.\n\nAli gets 'biryani' in Arabic calligraphy on his forearm. The tattoo artist stares at you both for a full 10 seconds.\n\n\"...You two met TODAY?\"\n\"Yeah.\"\n\"...Respect.\"\n\nDorito will never know you permanently inked a cat paw on your body for him. But Ali knows. And somehow this is the most unhinged first date either of you have ever been on.\n\nYou walk out feeling invincible.",
+      "emoji": "Shake It Off 🐾✍️",
+      "bg": "#f5f0ff",
+      "choices": [
+        {
+          "label": "Make it official (you kinda have to now)",
+          "next": "official"
+        }
+      ]
+    },
+    "official": {
+      "text": "June 2024. No more wondering, no more 'what are we.' It's official. He's yours and you're his. The late-night calls become goodnight kisses. The memes become inside jokes whispered in person. This is your Lover era.",
+      "emoji": "💑🍱🐱",
+      "bg": "#fff0f5",
+      "choices": [
+        {
+          "label": "Go on ALL the dates",
+          "next": "dates_montage"
+        },
+        {
+          "label": "Test him: send 'we need to talk' 😈",
+          "next": "we_need_to_talk"
+        }
+      ]
+    },
+    "we_need_to_talk": {
+      "text": "You send it. The four most terrifying words in any relationship:\n\n\"We need to talk.\"\n\nRead at 3:47pm. No reply. You watch the typing indicator appear. Disappear. Appear. Disappear.\n\n27 minutes later, he's at your door. Flowers. Chocolate. AND a printed confirmation of a vet appointment for Dorito he'd been putting off for 3 weeks.\n\n\"I don't know what I did but I'm sorry and also Dorito is getting his shots on Thursday.\"\n\nYou stare at him. \"...I was going to ask what you want for dinner.\"\n\nHe passes the test. He passed it so hard he lapped it. The cat is getting vaccinated. The man is LOCKED IN.",
+      "emoji": "📱😈💐🐱",
+      "bg": "#f0fff8",
+      "choices": [
+        {
+          "label": "He's a keeper. Go on ALL the dates.",
+          "next": "dates_montage"
+        }
+      ]
+    },
+    "dates_montage": {
+      "text": "The summer is a highlight reel. Fireworks at English Bay — his arm around you as colours explode overhead. Van Dusen Gardens — getting lost in the hedge maze, him pretending he knows the way (he doesn't). Hiking Quarry Rock — you out-pacing him and pretending you're not tired at the top.\n\nIce cream runs. Sunset drives. Cat café visits where Dorito would be jealous if he knew. Thankfully he's neutered",
+      "emoji": "🎆🌸🥾🍦",
+      "bg": "#f0fff5",
+      "choices": [
+        {
+          "label": "Fall deeper in love",
+          "next": "fight_night"
+        },
+        {
+          "label": "Try cooking together 🍳",
+          "next": "cooking_disaster"
+        }
+      ]
+    },
+    "cooking_disaster": {
+      "text": "You decide to make biryani from scratch. Together. How hard can it be?\n\nStep 1: Ali insists his mom's recipe is better. You insist YOUR mom's is better. A 20-minute argument over cumin quantity.\n\nStep 2: Something is burning. What is burning? Everything. Everything is burning.\n\nStep 3: Dorito jumps on the counter and knocks a whole container of turmeric onto the floor. The kitchen looks like a crime scene. A yellow crime scene.",
+      "emoji": "🍚🔥🐱💛",
+      "bg": "#fff8e0",
+      "choices": [
+        {
+          "label": "Keep going, it'll be fine 😅",
+          "next": "cooking_disaster_2"
+        }
+      ]
+    },
+    "cooking_disaster_2": {
+      "text": "The smoke alarm goes off. Dorito BOLTS under the bed. Ali is fanning the alarm with a dish towel. You're laughing so hard you can't breathe.\n\nThe fire department shows up. A fireman looks at the pot. Looks at you. Looks at Ali covered in turmeric.\n\n\"Is this... biryani?\"\n\"It was supposed to be.\"\n\nHe nods solemnly. \"Order Uber Eats.\"\n\nYou order Uber Eats. You just paid a broke Arab guys to bring you food- God knows why he bought a white BMW. You eat on the floor because the kitchen table is a war zone- Kashmir. The biryani from the restaurant is mid. The Pink Chai is cold. But sitting on the floor with him, covered in turmeric, with Dorito finally emerging from hiding — it's perfect.\n\nThis is who you are as a couple.",
+      "emoji": "🚒👨‍🚒📱🍱",
+      "bg": "#fff5e0",
+      "choices": [
+        {
+          "label": "Accept your fate as non-cooks.\nAt least you won't be an Arab guy's stay-at-home Habibi",
+          "next": "fight_night"
+        }
+      ]
+    },
+    "fight_night": {
+      "text": "Then one night... Ali says something stupid. Really stupid. The kind of stupid that makes you stare at him for 69 full seconds in silence.\n\nYou fight. All night. The cat hides under the bed.\n\nIt's 1:47am. You're both exhausted.",
+      "emoji": "😤📱💢",
+      "bg": "#ffe8e8",
+      "choices": [
+        {
+          "label": "Make up at 2am 🕐",
+          "next": "makeup_2am"
+        },
+        {
+          "label": "Keep fighting until 5am 🕔",
+          "next": "makeout_5am"
+        }
+      ]
+    },
+    "makeup_2am": {
+      "text": "At 2am, \"I'm sorry. That was dumb. I was being dumb.\"\n\nYou're quiet for a second. Then: \"Yeah, you were.\"\n\nHe laughs softly. You laugh too. The cat comes out from under the bed.\n\nYou talk until you both fall asleep — just like the early days. You get a full night's sleep. Tomorrow is a new day.",
+      "emoji": "🕐😴💕",
+      "bg": "#f0f0ff",
+      "choices": [
+        {
+          "label": "Wake up smiling",
+          "next": "engaged"
+        }
+      ]
+    },
+    "makeout_5am": {
+      "text": "5am. You've been going back and forth for HOURS. Eyes red. Hair a mess.\n\n\"I'm sorry.\"\n\"You're an idiot.\"\n\"I know.\"\n\n...The cat leaves the room. You make up. Aggressively 💦. The sun comes up. Neither of you slept. Both of you are smiling.\n\nThis is a core memory 💅🏼",
+      "emoji": "🕔🔥😏🐱",
+      "bg": "#fff0f8",
+      "choices": [
+        {
+          "label": "Survive on 69 minutes of sleep",
+          "next": "engaged"
+        }
+      ]
+    },
+    "engaged": {
+      "text": "June 2025. One year later — your anniversary. He gets down on one knee. Every phone call, every meme, every walk along the water led to this moment. It's a Love Story, baby, just say...",
+      "emoji": "💍🐱",
+      "bg": "#fffaf0",
+      "choices": [
+        {
+          "label": "YES! 💍",
+          "next": "married"
+        },
+        {
+          "label": "A thousand times yes!",
+          "next": "married"
+        },
+        {
+          "label": "Actually... choose an Arab guy instead 🤔\nKoobideh kabob is mid AF. Shawarma is 🥵",
+          "next": "arab_guy"
+        }
+      ]
+    },
+    "arab_guy": {
+      "text": "You choose an Arab guy instead. He is charming. He is mysterious. He says 'habibi' a lot.\n\nDay 1: \"Why were you 3 minutes late?\"\nDay 2: \"Who liked your photo?\"\nDay 3: \"I just think it's funny how...\"\n\nYou are being gaslit. The cat tried to warn you.",
+      "emoji": "🚩🚩🚩",
+      "bg": "#ffe0e0",
+      "choices": [
+        {
+          "label": "Bare with it... 😔",
+          "next": "arab_guy_2nd_wife"
+        },
+        {
+          "label": "I’m choosing self‑respect today 🏃‍♀️",
+          "next": "arab_guy_cats"
+        },
+        {
+          "label": "Unbothered, moisturized, in my era 💅",
+          "next": "arab_guy_habibi"
+        }
+      ]
+    },
+    "arab_guy_2nd_wife": {
+      "text": "You bare with it. This is your life now.\n\nHe gets a second wife.\n\nShe also gets gaslit.\n\nYou two bond over it. You start a support group. The group chat is called 'Habibi's Haunted House.'\n\nThe cat is the only one thriving.",
+      "emoji": "🇸🇦💁🏽‍♂️👰‍♀️👰‍♀️🐱",
+      "bg": "#f5d5d5",
+      "choices": [
+        {
+          "label": "↩️ Habibi gets no Zawaj. Leave him and find a normal guy. Koobideh kabob aint that bad.",
+          "next": "first_chat"
+        }
+      ]
+    },
+    "arab_guy_cats": {
+      "text": "You leave him. You adopt a calico cat and an orange one. The calico is wise. The orange one has exactly one brain cell but unlimited love.\n\nThey never gaslight you. They never get a second wife. They just knock things off the counter at 3am.\n\nHonestly? Upgrade.\n\nBut there still get more action than you do.",
+      "emoji": "🐱🧡🐱",
+      "bg": "#fff3e6",
+      "choices": [
+        {
+          "label": "↩️ Go back to Salams and find a normal guy",
+          "next": "first_chat"
+        }
+      ]
+    },
+    "married": {
+      "text": "December 7th, 2025. Eighteen months after a swipe on a dating app, you marry your best friend. The person who matched your meme energy, stayed up on the phone for hours, and walked with you through Coal Harbour on that very first night.\n\nYou found something Beautiful — and it's yours to keep. Billy and Dorito wore tiny bowties.",
+      "emoji": "👰‍♀️🤵🐱🐱",
+      "bg": "#fdf0ff",
+      "choices": [
+        {
+          "label": "Us against the world, obviously ❤️",
+          "next": "finale"
+        },
+        {
+          "label": "Object at your own wedding 🙋‍♀️",
+          "next": "wedding_objection"
+        }
+      ]
+    },
+    "wedding_objection": {
+      "text": "The imam asks: \"Does anyone object to this marriage?\"\n\nYou stand up. At your own wedding. In your own dress.\n\nEveryone gasps. Your mom almost faints. Ali's eyes go wide. The photographer gets the shot of a lifetime.\n\n\"I object...\"\n\n*dramatic pause*\n\n\"...to the biryani not being spicy enough.\"\n\nAli slams his hand on the table: \"I TOLD the caterer! I said extra mirch!\"\n\nThe imam looks at God for strength. Your mom sits back down. The caterer is sweating.\n\nCrisis resolved. Extra green chutney is deployed. The nikah continues.\n\nBilly and Dorito, in their tiny bowties, are unbothered.",
+      "emoji": "🙋‍♀️👰‍♀️🌶️😱",
+      "bg": "#fff0f0",
+      "choices": [
+        {
+          "label": "Marry him (with spicier biryani) ❤️",
+          "next": "finale"
+        },
+        {
+          "label": "Wait... is that the BLONDE? 👱‍♀️",
+          "next": "wedding_blonde"
+        }
+      ]
+    },
+    "wedding_blonde": {
+      "text": "You freeze mid-objection. Because there, in the THIRD ROW, sitting between your khala and a confused uncle — is HER.\n\nThe blonde. From the dream. THE DREAM YOU NEVER HAD because you chose Ali and NOT the Arab guy and this timeline doesn't even MAKE SENSE.\n\nShe's wearing Lululemon. To a nikah. She has a Birkin. It says 'They underestimated me. Mistake.' She's petting... Billy.\n\nAli leans over: \"Babe, do you know that blonde lady?\"\n\n\"NO.\" (You're sweating.)\n\nBilly slow-blinks at you from her lap. The cat kiss. THE CAT KISS. Across timelines. Across realities. This cat is HAUNTING you.\n\nThe imam clears his throat. \"Can we... continue?\"\n\nThe blonde waves. Billy waves. Cats can't wave.\n\nYou grab Ali's hand. \"FINISH THE NIKAH. NOW. Before the multiverse collapses.\"\n\nThe nikah is completed in record time. The blonde disappears. Billy is back with Dorito. Your khala says she \"didn't see anyone.\" Your uncle asks if you're feeling okay.\n\nYou are NOT okay. But you are MARRIED. And that's what matters.\n\nDorito, in his bowtie, saw the whole thing. He will never tell.",
+      "emoji": "👱‍♀️🐱🌀👰‍♀️🙀",
+      "bg": "#f0e0ff",
+      "finale": true,
+      "choices": []
+    },
+    "invite_him_over": {
+      "text": "Ali comes over. Dorito the cat inspects him at the door — sniffs once, twice — and then headbutts his leg. Approved.\n\nYou two spend the evening on the couch. Dorito wedges himself between you both, purring like a motorboat. Ali scratches behind his ears. You watch something dumb on TV. It's perfect. You are satisfied.\n\n...Fast forward. You're 74. You have short-term remembery loss. You can't remember where you put your mia mia glasses. But you remember THIS night. The night Ali played with Dorito. The highlight of your youth.\n\nJust keep swimming, Anika. Just keep swimming. 🐟",
+      "emoji": "🐱🐠👵",
+      "bg": "#e8f4f8",
+      "finale": true,
+      "choices": []
+    },
+    "married_2": {
+      "text": "Mom has decided. It's arranged. No more Salams. No more swiping. Mom found a \"nice boy\" — and by nice she means his family knows someone who knows someone.\n\nAli, a Shia Ismaili boy, converts to Sunni to win your family's approval. He grows a beard overnight. Literally overnight. You're not sure how.\n\nThe wedding is beautiful. Except for the বাংলাদেশ জামায়াতে ইসলামী flag your uncle hung up as \"decoration\". Your uncle insists it's \"just calligraphy\" from his days captaining the BNS Bokachoda 🐟\n\n The photographer is sweating\n\nAli whispers to you: \"I don't even know what madhab I am anymore.\"\n\nDorito and White Sharia watch from the corner, wearing tiny topis. They're the only ones unbothered.",
+      "emoji": "🧔📿🏴🐱",
+      "bg": "#f0e8e0",
+      "finale": true,
+      "choices": []
+    },
+    "arab_guy_habibi": {
+      "text": "You know what? You're unbothered. You're moisturized. You're thriving.\n\nYou LEAN INTO the gaslight. You gaslight him BACK.\n\n\"Habibi, I never said that.\"\n\"Habibi, you're imagining things.\"\n\"Habibi, my phone died for 6 hours.\"\n\nHe's SHOOK. Shik Shak SHOOK. Nobody has ever out-habibied him. He doesn't know what to do. Somewhere in the distance, Shik Shak Shok starts playing and you hit every beat while he ugly-cries into his keffiyeh. He starts journaling. He gets therapy. He cries in his G-Wagon.\n\nYou now run the household. The shawarma is always fresh. The cats have a gold-plated litter box. You vacation in Dubai every other month.\n\nYou are the first wife, the last wife, and the ONLY wife. He wouldn't dare.\n\nDorito wears a tiny keffiyeh. He's thriving too.\n\nAlhamdulillah. You won.",
+      "emoji": "💅👑🐱🇦🇪",
+      "bg": "#f0e8ff",
+      "choices": [
+        {
+          "label": "Take a victory nap 😴👑",
+          "next": "arab_guy_dream"
+        }
+      ]
+    },
+    "arab_guy_dream": {
+      "text": "You fall asleep on your gold-threaded chaise lounge, victorious. The G-Wagon hums outside. Dorito purrs on your chest in his tiny keffiyeh.\n\nBut then... in your dream.\n\nThe guy your rejected. He's sitting on that same bench from your first date, looking like a whole snack.\n\nAnd there's Billy. His muscular white cat. Sitting on his lap. Being pet by... a BLONDE. A HOT blonde. She's wearing Lululemon. She has a Birkin- you had to werk for yours. She's laughing at something Ali said. Billy is PURRING. Billy has never purred like that for YOU.\n\nThe blonde boops Billy's nose. Billy slow-blinks at her. That's a CAT KISS. That's a cat kiss meant for YOU.\n\nAli looks up at dream-you floating in the sky. He waves. The blonde waves. Billy waves. Cats can't wave. This is a nightmare.\n\nYou wake up SCREAMING. Your Arab husband rolls over: \"Habibi what's wrong?\"\n\n\"NOTHING. Go back to sleep.\"\n\nYou stare at the ceiling. Shawarma is good. Shawarma is GREAT. You don't even LIKE koobideh. You don't miss Ali. You don't miss Billy.\n\n...\n\nYou google \"how to stop dreaming about your ex's cat\" at 4am.\n\nNo results. You are alone in this.",
+      "emoji": "😴💭👱‍♀️👜🐱😱",
+      "bg": "#e8e0ff",
+      "finale": true,
+      "choices": []
+    },
+    "finale": {
+      "text": "Happy Birthday, Anika 🎂\n\nFrom a Salams swipe to forever — every chapter with you is my favourite. You are the best thing that's ever been mine.\n\nHere's to many more birthdays together, more late-night laughs, more memes, more cat cuddles, and more adventures in this beautiful life we're building.\n\nI love you. Always. 💕🐱",
+      "emoji": "🎉",
+      "bg": "#fff5f5",
+      "finale": true,
+      "choices": []
+    },
+    "post_credits": {
+      "text": "🎬 POST-CREDITS SCENE\n\n...Meanwhile, in a parallel universe.\n\nCat Lady Anika sits on her throne. Seven cats surround her. Monday through Sunday. She's watching Netflix alone. The third bowl of ice cream sits in her lap. Saturday judges. Wednesday knocks a glass off the table. It shatters. Nobody cares.\n\nHer phone buzzes.\n\nA notification from Salams. A new match.\n\nShe looks at the profile. It's... an Arab guy. He says 'habibi' in his bio. His first photo is in a G-Wagon. His second photo is a mirror selfie at the gym.\n\nShe swipes left.\n\nMonday meows.\n\n\"Yeah,\" she whispers. \"I know.\"\n\nShe opens Uber Eats. Orders biryani. For one.\n\nThe cats purr. The ice cream melts. The Netflix asks if she's still watching.\n\nShe is.\n\nShe always is.\n\n...\n\n🎬 FIN",
+      "emoji": "🎬🐱🐱🐱🐱🐱🐱🐱",
+      "bg": "#1a1a2e",
+      "finale": true,
+      "choices": []
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "title": "Dorito's Story",
+  "playerName": "Dorito",
+  "scenes": {
+    "start": {
+      "text": "The Tall One is scrolling the rectangle again. I sit on her pillow — MY pillow — and judge. She has been doing this for hours. I have knocked three pens off the nightstand in protest. She did not notice.\n\nI am 14 pounds of muscle and fury. She calls me 'squishy.' I am NOT squishy. I am a PREDATOR. I caught a moth last week.\n\nShe squeals at the rectangle. Something has happened.",
+      "emoji": "🐱📱",
+      "bg": "#f5f0eb",
+      "choices": [
+        {
+          "label": "Investigate the rectangle 📱",
+          "next": "new_human"
+        },
+        {
+          "label": "Ignore her. Knock another pen off. 🖊️",
+          "next": "start_knock"
+        }
+      ]
+    },
+    "start_knock": {
+      "text": "I push the pen. It falls. Beautiful. The sound of gravity obeying me.\n\nShe doesn't even look. She's SMILING at the rectangle. Smiling that smile she only makes when there's tuna.\n\nBut there is no tuna. This is worse than I thought.\n\nI must investigate.",
+      "emoji": "🖊️😾",
+      "bg": "#f5f0eb",
+      "choices": [
+        {
+          "label": "Fine. Investigate.",
+          "next": "new_human"
+        }
+      ]
+    },
+    "new_human": {
+      "text": "A voice comes from the rectangle now. Every night. It talks and talks. She laughs. She does the thing where she puts her feet up and twirls her hair.\n\nI have never made her twirl her hair. I have made her scream (3am zoomies) but that is different.\n\nThe voice says words. I do not understand words. But I understand TONE. This tone is... suspicious.\n\nShe falls asleep with the rectangle on her face. I sit on the rectangle. If I cannot have her attention, NO ONE can.\n\nShe moves me. 'Move, you fat fuck,' she whispers lovingly. THE AUDACITY.",
+      "emoji": "📞😾🐱",
+      "bg": "#fef3f0",
+      "choices": [
+        {
+          "label": "Plot revenge (sit on her face at 4am) 😈",
+          "next": "he_visits"
+        },
+        {
+          "label": "Accept this. For now. 😤",
+          "next": "he_visits"
+        }
+      ]
+    },
+    "he_visits": {
+      "text": "The door opens. A New Human enters MY domain.\n\nI freeze. I assess.\n\nHe smells like... shawarma? And something else. Another cat. There is ANOTHER CAT on this man. An orange one, by the scent. Probably stupid. Orange ones always are.\n\nProtocol dictates: sniff, circle, decide.\n\nI sniff. I circle. He crouches down.\n\n\"Hey buddy.\"\n\nI am not your buddy. I am DORITO. DESTROYER OF MOTHS. TERROR OF 3AM.\n\n...He scratches behind my ear. The spot. THE SPOT.\n\nI headbutt his leg.\n\nThis means NOTHING. This is simply a territorial claim. I own him now. He just doesn't know it yet.\n\nShe sees this and screams: \"DORITO LIKES HIM! Oh my God you squishy dumb baby you LIKE HIM!\"\n\nI do NOT like him. I am MARKING my PROPERTY. There is a DIFFERENCE.",
+      "emoji": "🚪🐱👃",
+      "bg": "#f0f8ff",
+      "choices": [
+        {
+          "label": "Allow the New Human to stay. For now.",
+          "next": "the_squish"
+        }
+      ]
+    },
+    "the_squish": {
+      "text": "It is Tuesday. I am sleeping. I am PEACEFUL.\n\nShe picks me up.\n\n\"SQUISHY BABY! SQUISHY SQUISHY SQUISH!\"\n\nShe is squeezing me. My organs are rearranging. My dignity is leaving my body.\n\n\"You're so DUMB. You're so FAT. You're such a little FAT FUCK. I love you SO MUCH.\"\n\nThese are not compliments. I am 14 pounds. That is AVERAGE for my frame. I am BIG-BONED.\n\n\"I'm gonna FLUSH YOU DOWN THE TOILET you little SQUISHY DUMPLING.\"\n\nShe will not flush me. She cannot flush me. I am too wide. I have tested this theory.\n\nThe New Human watches. He is laughing. They are BOTH laughing.\n\nI go limp. I accept my fate. I am a ragdoll now. A 14-pound ragdoll who could DESTROY them both but CHOOSES not to.\n\nShe kisses my head 47 times. I count.\n\n...Fine. It was nice. I will deny this under oath.",
+      "emoji": "😾💀🫠",
+      "bg": "#fff0f5",
+      "choices": [
+        {
+          "label": "Seek therapy (stare at wall for 2 hours)",
+          "next": "competition"
+        },
+        {
+          "label": "Revenge (hairball on her pillow) 🤮",
+          "next": "competition"
+        }
+      ]
+    },
+    "competition": {
+      "text": "He brings IT. The Orange One.\n\nIt walks into MY house. MY territory. 14 years of MY scent markers ERASED by this... this TANGERINE.\n\nHis name is \"Billy.\" He has one brain cell. I watch it bounce around his empty skull like a Windows screensaver.\n\nHe walks into the glass door. Twice. He falls off the couch. He tries to eat a rubber band.\n\nShe picks him up: \"OH BILLY! You're so CUTE! You're so STUPID! I LOVE YOU!\"\n\nShe said that to ME. Those are MY words. MY squishes. MY death threats.\n\nBilly purrs. He purrs at EVERYTHING. He purrs at the vacuum. He is broken.\n\nI sit on the highest shelf. I watch. I judge. I am above this. Literally.\n\n...He tries to jump up to my shelf. He misses by three feet. Lands in the recycling bin.\n\nOkay. He's a little funny. I will not admit this.",
+      "emoji": "🐱🟠😾📦",
+      "bg": "#fff3e6",
+      "choices": [
+        {
+          "label": "Establish dominance (sit on Billy)",
+          "next": "wedding"
+        },
+        {
+          "label": "Tolerate the idiot. We coexist.",
+          "next": "wedding"
+        }
+      ]
+    },
+    "wedding": {
+      "text": "Something is happening. The Tall One is in a white dress. There are flowers. There are humans EVERYWHERE. In MY house.\n\nThey put a bowtie on me.\n\nA BOWTIE.\n\nI am not a BUTLER. I am not your RING BEARER. I am a WARRIOR.\n\nBilly has one too. He's prancing around like it's Fashion Week. The one brain cell is having the time of its life.\n\nThe Tall One picks me up — in front of EVERYONE — and says: \"Look at my squishy boy! My fat little man in his little suit!\"\n\nI am being PUBLICLY HUMILIATED.\n\nBut... the New Human — the one who is now the Permanent Human, apparently — he slips me a piece of chicken under the table.\n\nA WHOLE piece. Not scraps. A PIECE.\n\n...The bowtie stays. For now.\n\nAlso something smells incredible. There are large trays of yellow rice. I will investigate after the humans stop crying.",
+      "emoji": "🐱🎀👰🍗",
+      "bg": "#fdf0ff",
+      "choices": [
+        {
+          "label": "Steal biryani during the speeches 🍚",
+          "next": "finale_dori"
+        },
+        {
+          "label": "Maintain dignity. Wait for leftovers.",
+          "next": "finale_dori"
+        }
+      ]
+    },
+    "finale_dori": {
+      "text": "Life has changed.\n\nThe Tall One is still tall. She still grabs me. She still calls me squishy. She still threatens plumbing violence. I still allow it.\n\nThe Permanent Human gives chin scratches at a 94% accuracy rate. Acceptable.\n\nThe Orange Idiot is still here. He still has one brain cell. Yesterday he got his head stuck in a paper bag and walked backwards into the bathtub. I watched the whole thing. I did not help.\n\n...I may have purred.\n\nThe house is warm. The food comes on time. There are TWO humans to sit on now. Double the lap space. Double the body heat.\n\nSome nights, we all sit on the couch. All four of us. She scratches my chin. He scratches my back. Billy drools on a cushion.\n\nThis is... acceptable.\n\nBut if ANYONE calls me 'fat fuck' ONE more time, I am peeing on the couch.\n\nI am not fat. I am ROBUST.\n\n🐱",
+      "emoji": "🐱👑❤️",
+      "bg": "#f0fff5",
+      "finale": true,
+      "choices": []
+    }
+  }
+}
